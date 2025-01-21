@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning App - Beginner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to English Learning App</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#lesson">Lesson</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section: Introduction -->
+    <section id="home">
+        <div class="content-container">
+            <h2>Learn English - Beginner Level</h2>
+            <p>Start learning English step by step, from greetings to basic sentence structure!</p>
+            <button onclick="startLesson()">Start Lesson</button>
+        </div>
+    </section>
+
+    <!-- Lesson Section -->
+    <section id="lesson">
+        <div class="content-container">
+            <h2>Lesson 1: Basic Greetings & Introductions</h2>
+            <p>Let's begin with some basic greetings and how to introduce yourself in English.</p>
+            
+            <h3>Vocabulary</h3>
+            <ul>
+                <li>Hello</li>
+                <li>Goodbye</li>
+                <li>Thank you</li>
+                <li>My name is...</li>
+                <li>How are you?</li>
+            </ul>
+
+            <h3>Grammar: Simple Sentence Structure</h3>
+            <p>Example: <strong>Subject + Verb + Object</strong></p>
+            <p><strong>Example:</strong> I eat apples.</p>
+            
+            <h3>Real-life Example Sentences</h3>
+            <ul>
+                <li>Hi! My name is John.</li>
+                <li>Good morning! How are you?</li>
+                <li>Thank you for your help!</li>
+            </ul>
+            
+            <button onclick="nextLesson()">Next Lesson</button>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+        <div class="content-container">
+            <h2>Quick Quiz</h2>
+            <p>Let's test your understanding of today's lesson!</p>
+            <form>
+                <label for="q1">What is the correct greeting for saying goodbye?</label><br>
+                <input type="radio" id="goodbye1" name="q1" value="Goodbye"> Goodbye<br>
+                <input type="radio" id="hello1" name="q1" value="Hello"> Hello<br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="content-container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out with any questions.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 English Learning App. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning App - Verb Tenses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>English Learning App</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#lesson">Lesson</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section: Verb Tenses -->
+    <section id="lesson">
+        <div class="content-container">
+            <h2>Lesson 2: Verb Tenses</h2>
+            <p>Let's learn about verb tenses and how they are used in English sentences.</p>
+
+            <!-- Tenses -->
+            <h3>Present Simple Tense</h3>
+            <p><strong>Example:</strong> I eat apples every day.</p>
+            <p>Use the present simple tense to talk about things that happen regularly or facts.</p>
+
+            <h3>Past Simple Tense</h3>
+            <p><strong>Example:</strong> I ate an apple yesterday.</p>
+            <p>Use the past simple tense to talk about actions that happened in the past.</p>
+
+            <h3>Future Simple Tense</h3>
+            <p><strong>Example:</strong> I will eat an apple tomorrow.</p>
+            <p>Use the future simple tense to talk about things that will happen in the future.</p>
+
+            <button onclick="nextLesson()">Next Lesson</button>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+        <div class="content-container">
+            <h2>Verb Tenses Quiz</h2>
+            <p>Let's test your understanding of verb tenses!</p>
+            <form>
+                <label for="q1">Choose the correct verb tense: "I __ an apple yesterday."</label><br>
+                <input type="radio" id="past" name="q1" value="Past Simple"> I ate an apple yesterday.<br>
+                <input type="radio" id="future" name="q1" value="Future Simple"> I will eat an apple tomorrow.<br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="content-container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out with any questions.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 English Learning App. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
